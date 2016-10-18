@@ -1,0 +1,431 @@
+g++ -O3 -c `pkg-config --cflags opencv libxml-2.0 sdl` -I./ann_1.1.1/include/ actions.cpp
+g++ -O3 -c `pkg-config --cflags opencv libxml-2.0 sdl` -I./ann_1.1.1/include/ application.cpp
+In file included from gui.h:6,
+                 from ui_state.h:28,
+                 from ui_core.h:30,
+                 from application.h:30,
+                 from application.cpp:25:
+/usr/include/SDL/SDL_opengl.h:112:1: warning: "GL_GLEXT_VERSION" redefined
+In file included from /usr/include/GL/gl.h:2150,
+                 from interface_opengl.h:28,
+                 from core_image_loader.h:28,
+                 from geometry_structures.h:29,
+                 from application.h:28,
+                 from application.cpp:25:
+/usr/include/GL/glext.h:51:1: warning: this is the location of the previous definition
+g++ -O3 -c `pkg-config --cflags opencv libxml-2.0 sdl` -I./ann_1.1.1/include/ core_constants.cpp
+g++ -O3 -c `pkg-config --cflags opencv libxml-2.0 sdl` -I./ann_1.1.1/include/ core_debug.cpp
+In function ‘void* memset(void*, int, size_t)’,
+    inlined from ‘bool core_debug_initialize()’ at core_debug.cpp:42:
+/usr/include/bits/string3.h:82: warning: call to ‘__warn_memset_zero_len’ declared with attribute warning: memset used with constant zero length parameter; this could be due to transposed parameters
+g++ -O3 -c `pkg-config --cflags opencv libxml-2.0 sdl` -I./ann_1.1.1/include/ core_image_loader.cpp
+g++ -O3 -c `pkg-config --cflags opencv libxml-2.0 sdl` -I./ann_1.1.1/include/ core_math_routines.cpp
+g++ -O3 -c `pkg-config --cflags opencv libxml-2.0 sdl` -I./ann_1.1.1/include/ core_state.cpp
+g++ -O3 -c `pkg-config --cflags opencv libxml-2.0 sdl` -I./ann_1.1.1/include/ core_structures.cpp
+g++ -O3 -c `pkg-config --cflags opencv libxml-2.0 sdl` -I./ann_1.1.1/include/ cv_extensions.cpp
+g++ -O3 -c `pkg-config --cflags opencv libxml-2.0 sdl` -I./ann_1.1.1/include/ geometry_export.cpp
+In file included from gui.h:6,
+                 from ui_state.h:28,
+                 from ui_core.h:30,
+                 from ui_visualization.h:32,
+                 from geometry_export.h:31,
+                 from geometry_export.cpp:25:
+/usr/include/SDL/SDL_opengl.h:112:1: warning: "GL_GLEXT_VERSION" redefined
+In file included from /usr/include/GL/gl.h:2150,
+                 from interface_opengl.h:28,
+                 from core_image_loader.h:28,
+                 from geometry_structures.h:29,
+                 from geometry_export.h:30,
+                 from geometry_export.cpp:25:
+/usr/include/GL/glext.h:51:1: warning: this is the location of the previous definition
+g++ -O3 -c `pkg-config --cflags opencv libxml-2.0 sdl` -I./ann_1.1.1/include/ geometry_loader.cpp
+geometry_loader.cpp: In function ‘bool geometry_loader_rz3(const char*, Shots&)’:
+geometry_loader.cpp:550: warning: ignoring return value of ‘int fscanf(FILE*, const char*, ...)’, declared with attribute warn_unused_result
+g++ -O3 -c `pkg-config --cflags opencv libxml-2.0 sdl` -I./ann_1.1.1/include/ geometry_publish.cpp
+g++ -O3 -c `pkg-config --cflags opencv libxml-2.0 sdl` -I./ann_1.1.1/include/ geometry_queries.cpp
+g++ -O3 -c `pkg-config --cflags opencv libxml-2.0 sdl` -I./ann_1.1.1/include/ geometry_routines.cpp
+g++ -O3 -c `pkg-config --cflags opencv libxml-2.0 sdl` -I./ann_1.1.1/include/ geometry_structures.cpp
+g++ -O3 -c `pkg-config --cflags opencv libxml-2.0 sdl` -I./ann_1.1.1/include/ geometry_textures.cpp
+g++ -O3 -c `pkg-config --cflags opencv libxml-2.0 sdl` -I./ann_1.1.1/include/ gui.cpp
+g++ -O3 -c `pkg-config --cflags opencv libxml-2.0 sdl` -I./ann_1.1.1/include/ gui_style.cpp
+g++ -O3 -c `pkg-config --cflags opencv libxml-2.0 sdl` -I./ann_1.1.1/include/ interface_filesystem.cpp
+g++ -O3 -c `pkg-config --cflags opencv libxml-2.0 sdl` -I./ann_1.1.1/include/ interface_opencv.cpp
+g++ -O3 -c `pkg-config --cflags opencv libxml-2.0 sdl` -I./ann_1.1.1/include/ interface_opengl.cpp
+g++ -O3 -c `pkg-config --cflags opencv libxml-2.0 sdl` -I./ann_1.1.1/include/ interface_sdl.cpp
+g++ -O3 -c `pkg-config --cflags opencv libxml-2.0 sdl` -I./ann_1.1.1/include/ main.cpp
+In file included from gui.h:6,
+                 from ui_state.h:28,
+                 from ui_core.h:30,
+                 from application.h:30,
+                 from main.cpp:25:
+/usr/include/SDL/SDL_opengl.h:112:1: warning: "GL_GLEXT_VERSION" redefined
+In file included from /usr/include/GL/gl.h:2150,
+                 from interface_opengl.h:28,
+                 from core_image_loader.h:28,
+                 from geometry_structures.h:29,
+                 from application.h:28,
+                 from main.cpp:25:
+/usr/include/GL/glext.h:51:1: warning: this is the location of the previous definition
+g++ -O3 -c `pkg-config --cflags opencv libxml-2.0 sdl` -I./ann_1.1.1/include/ mvg_autocalibration.cpp
+g++ -O3 -c `pkg-config --cflags opencv libxml-2.0 sdl` -I./ann_1.1.1/include/ mvg_camera.cpp
+g++ -O3 -c `pkg-config --cflags opencv libxml-2.0 sdl` -I./ann_1.1.1/include/ mvg_decomposition.cpp
+g++ -O3 -c `pkg-config --cflags opencv libxml-2.0 sdl` -I./ann_1.1.1/include/ mvg_matching.cpp
+g++ -O3 -c `pkg-config --cflags opencv libxml-2.0 sdl` -I./ann_1.1.1/include/ mvg_normalization.cpp
+g++ -O3 -c `pkg-config --cflags opencv libxml-2.0 sdl` -I./ann_1.1.1/include/ mvg_resection.cpp
+g++ -O3 -c `pkg-config --cflags opencv libxml-2.0 sdl` -I./ann_1.1.1/include/ mvg_triangulation.cpp
+g++ -O3 -c `pkg-config --cflags opencv libxml-2.0 sdl` -I./ann_1.1.1/include/ tool_calibration.cpp
+In file included from gui.h:6,
+                 from ui_state.h:28,
+                 from ui_core.h:30,
+                 from tool_typical_includes.h:29,
+                 from tool_calibration.h:28,
+                 from tool_calibration.cpp:25:
+/usr/include/SDL/SDL_opengl.h:112:1: warning: "GL_GLEXT_VERSION" redefined
+In file included from /usr/include/GL/gl.h:2150,
+                 from interface_opengl.h:28,
+                 from core_image_loader.h:28,
+                 from geometry_structures.h:29,
+                 from geometry_queries.h:28,
+                 from tool_typical_includes.h:28,
+                 from tool_calibration.h:28,
+                 from tool_calibration.cpp:25:
+/usr/include/GL/glext.h:51:1: warning: this is the location of the previous definition
+g++ -O3 -c `pkg-config --cflags opencv libxml-2.0 sdl` -I./ann_1.1.1/include/ tool_coordinates.cpp
+In file included from gui.h:6,
+                 from ui_state.h:28,
+                 from ui_core.h:30,
+                 from tool_typical_includes.h:29,
+                 from tool_coordinates.h:28,
+                 from tool_coordinates.cpp:25:
+/usr/include/SDL/SDL_opengl.h:112:1: warning: "GL_GLEXT_VERSION" redefined
+In file included from /usr/include/GL/gl.h:2150,
+                 from interface_opengl.h:28,
+                 from core_image_loader.h:28,
+                 from geometry_structures.h:29,
+                 from geometry_queries.h:28,
+                 from tool_typical_includes.h:28,
+                 from tool_coordinates.h:28,
+                 from tool_coordinates.cpp:25:
+/usr/include/GL/glext.h:51:1: warning: this is the location of the previous definition
+g++ -O3 -c `pkg-config --cflags opencv libxml-2.0 sdl` -I./ann_1.1.1/include/ tool_core.cpp
+tool_core.cpp: In function ‘char* tool_choose_file()’:
+tool_core.cpp:643: warning: ignoring return value of ‘int scanf(const char*, ...)’, declared with attribute warn_unused_result
+g++ -O3 -c `pkg-config --cflags opencv libxml-2.0 sdl` -I./ann_1.1.1/include/ tool_edit.cpp
+In file included from gui.h:6,
+                 from ui_state.h:28,
+                 from ui_core.h:30,
+                 from tool_typical_includes.h:29,
+                 from tool_edit.h:28,
+                 from tool_edit.cpp:25:
+/usr/include/SDL/SDL_opengl.h:112:1: warning: "GL_GLEXT_VERSION" redefined
+In file included from /usr/include/GL/gl.h:2150,
+                 from interface_opengl.h:28,
+                 from core_image_loader.h:28,
+                 from geometry_structures.h:29,
+                 from geometry_queries.h:28,
+                 from tool_typical_includes.h:28,
+                 from tool_edit.h:28,
+                 from tool_edit.cpp:25:
+/usr/include/GL/glext.h:51:1: warning: this is the location of the previous definition
+g++ -O3 -c `pkg-config --cflags opencv libxml-2.0 sdl` -I./ann_1.1.1/include/ tool_extrude.cpp
+g++ -O3 -c `pkg-config --cflags opencv libxml-2.0 sdl` -I./ann_1.1.1/include/ tool_file.cpp
+In file included from gui.h:6,
+                 from ui_state.h:28,
+                 from ui_core.h:30,
+                 from tool_typical_includes.h:29,
+                 from tool_file.h:28,
+                 from tool_file.cpp:25:
+/usr/include/SDL/SDL_opengl.h:112:1: warning: "GL_GLEXT_VERSION" redefined
+In file included from /usr/include/GL/gl.h:2150,
+                 from interface_opengl.h:28,
+                 from core_image_loader.h:28,
+                 from geometry_structures.h:29,
+                 from geometry_queries.h:28,
+                 from tool_typical_includes.h:28,
+                 from tool_file.h:28,
+                 from tool_file.cpp:25:
+/usr/include/GL/glext.h:51:1: warning: this is the location of the previous definition
+g++ -O3 -c `pkg-config --cflags opencv libxml-2.0 sdl` -I./ann_1.1.1/include/ tool_image.cpp
+In file included from gui.h:6,
+                 from ui_state.h:28,
+                 from ui_core.h:30,
+                 from tool_typical_includes.h:29,
+                 from tool_image.h:28,
+                 from tool_image.cpp:25:
+/usr/include/SDL/SDL_opengl.h:112:1: warning: "GL_GLEXT_VERSION" redefined
+In file included from /usr/include/GL/gl.h:2150,
+                 from interface_opengl.h:28,
+                 from core_image_loader.h:28,
+                 from geometry_structures.h:29,
+                 from geometry_queries.h:28,
+                 from tool_typical_includes.h:28,
+                 from tool_image.h:28,
+                 from tool_image.cpp:25:
+/usr/include/GL/glext.h:51:1: warning: this is the location of the previous definition
+g++ -O3 -c `pkg-config --cflags opencv libxml-2.0 sdl` -I./ann_1.1.1/include/ tool_matching.cpp
+In file included from gui.h:6,
+                 from ui_state.h:28,
+                 from ui_core.h:30,
+                 from tool_typical_includes.h:29,
+                 from tool_matching.h:28,
+                 from tool_matching.cpp:25:
+/usr/include/SDL/SDL_opengl.h:112:1: warning: "GL_GLEXT_VERSION" redefined
+In file included from /usr/include/GL/gl.h:2150,
+                 from interface_opengl.h:28,
+                 from core_image_loader.h:28,
+                 from geometry_structures.h:29,
+                 from geometry_queries.h:28,
+                 from tool_typical_includes.h:28,
+                 from tool_matching.h:28,
+                 from tool_matching.cpp:25:
+/usr/include/GL/glext.h:51:1: warning: this is the location of the previous definition
+g++ -O3 -c `pkg-config --cflags opencv libxml-2.0 sdl` -I./ann_1.1.1/include/ tool_plane_extraction.cpp
+g++ -O3 -c `pkg-config --cflags opencv libxml-2.0 sdl` -I./ann_1.1.1/include/ tool_points.cpp
+In file included from gui.h:6,
+                 from ui_state.h:28,
+                 from ui_core.h:30,
+                 from tool_typical_includes.h:29,
+                 from tool_points.h:28,
+                 from tool_points.cpp:25:
+/usr/include/SDL/SDL_opengl.h:112:1: warning: "GL_GLEXT_VERSION" redefined
+In file included from /usr/include/GL/gl.h:2150,
+                 from interface_opengl.h:28,
+                 from core_image_loader.h:28,
+                 from geometry_structures.h:29,
+                 from geometry_queries.h:28,
+                 from tool_typical_includes.h:28,
+                 from tool_points.h:28,
+                 from tool_points.cpp:25:
+/usr/include/GL/glext.h:51:1: warning: this is the location of the previous definition
+g++ -O3 -c `pkg-config --cflags opencv libxml-2.0 sdl` -I./ann_1.1.1/include/ tool_polygons.cpp
+In file included from gui.h:6,
+                 from ui_state.h:28,
+                 from ui_core.h:30,
+                 from tool_typical_includes.h:29,
+                 from tool_polygons.h:28,
+                 from tool_polygons.cpp:25:
+/usr/include/SDL/SDL_opengl.h:112:1: warning: "GL_GLEXT_VERSION" redefined
+In file included from /usr/include/GL/gl.h:2150,
+                 from interface_opengl.h:28,
+                 from core_image_loader.h:28,
+                 from geometry_structures.h:29,
+                 from geometry_queries.h:28,
+                 from tool_typical_includes.h:28,
+                 from tool_polygons.h:28,
+                 from tool_polygons.cpp:25:
+/usr/include/GL/glext.h:51:1: warning: this is the location of the previous definition
+g++ -O3 -c `pkg-config --cflags opencv libxml-2.0 sdl` -I./ann_1.1.1/include/ tool_resection.cpp
+In file included from gui.h:6,
+                 from ui_state.h:28,
+                 from ui_core.h:30,
+                 from tool_typical_includes.h:29,
+                 from tool_resection.h:28,
+                 from tool_resection.cpp:25:
+/usr/include/SDL/SDL_opengl.h:112:1: warning: "GL_GLEXT_VERSION" redefined
+In file included from /usr/include/GL/gl.h:2150,
+                 from interface_opengl.h:28,
+                 from core_image_loader.h:28,
+                 from geometry_structures.h:29,
+                 from geometry_queries.h:28,
+                 from tool_typical_includes.h:28,
+                 from tool_resection.h:28,
+                 from tool_resection.cpp:25:
+/usr/include/GL/glext.h:51:1: warning: this is the location of the previous definition
+g++ -O3 -c `pkg-config --cflags opencv libxml-2.0 sdl` -I./ann_1.1.1/include/ tool_selection.cpp
+In file included from gui.h:6,
+                 from ui_state.h:28,
+                 from ui_core.h:30,
+                 from tool_selection.h:30,
+                 from tool_selection.cpp:25:
+/usr/include/SDL/SDL_opengl.h:112:1: warning: "GL_GLEXT_VERSION" redefined
+In file included from /usr/include/GL/gl.h:2150,
+                 from interface_opengl.h:28,
+                 from core_image_loader.h:28,
+                 from geometry_textures.h:29,
+                 from tool_selection.h:29,
+                 from tool_selection.cpp:25:
+/usr/include/GL/glext.h:51:1: warning: this is the location of the previous definition
+tool_selection.cpp: In function ‘void debug_print_Ps()’:
+tool_selection.cpp:610: warning: ignoring return value of ‘int fscanf(FILE*, const char*, ...)’, declared with attribute warn_unused_result
+g++ -O3 -c `pkg-config --cflags opencv libxml-2.0 sdl` -I./ann_1.1.1/include/ tool_smart.cpp
+g++ -O3 -c `pkg-config --cflags opencv libxml-2.0 sdl` -I./ann_1.1.1/include/ tool_triangulation.cpp
+In file included from gui.h:6,
+                 from ui_state.h:28,
+                 from ui_core.h:30,
+                 from tool_typical_includes.h:29,
+                 from tool_triangulation.h:28,
+                 from tool_triangulation.cpp:25:
+/usr/include/SDL/SDL_opengl.h:112:1: warning: "GL_GLEXT_VERSION" redefined
+In file included from /usr/include/GL/gl.h:2150,
+                 from interface_opengl.h:28,
+                 from core_image_loader.h:28,
+                 from geometry_structures.h:29,
+                 from geometry_queries.h:28,
+                 from tool_typical_includes.h:28,
+                 from tool_triangulation.h:28,
+                 from tool_triangulation.cpp:25:
+/usr/include/GL/glext.h:51:1: warning: this is the location of the previous definition
+g++ -O3 -c `pkg-config --cflags opencv libxml-2.0 sdl` -I./ann_1.1.1/include/ ui_constants.cpp
+g++ -O3 -c `pkg-config --cflags opencv libxml-2.0 sdl` -I./ann_1.1.1/include/ ui_context.cpp
+In file included from gui.h:6,
+                 from ui_state.h:28,
+                 from ui_core.h:30,
+                 from ui_context.h:29,
+                 from ui_context.cpp:25:
+/usr/include/SDL/SDL_opengl.h:112:1: warning: "GL_GLEXT_VERSION" redefined
+In file included from /usr/include/GL/gl.h:2150,
+                 from interface_opengl.h:28,
+                 from core_image_loader.h:28,
+                 from ui_context.h:28,
+                 from ui_context.cpp:25:
+/usr/include/GL/glext.h:51:1: warning: this is the location of the previous definition
+g++ -O3 -c `pkg-config --cflags opencv libxml-2.0 sdl` -I./ann_1.1.1/include/ ui_core.cpp
+In file included from gui.h:6,
+                 from ui_state.h:28,
+                 from ui_core.h:30,
+                 from ui_core.cpp:25:
+/usr/include/SDL/SDL_opengl.h:112:1: warning: "GL_GLEXT_VERSION" redefined
+In file included from /usr/include/GL/gl.h:2150,
+                 from interface_opengl.h:28,
+                 from core_image_loader.h:28,
+                 from geometry_structures.h:29,
+                 from ui_core.h:29,
+                 from ui_core.cpp:25:
+/usr/include/GL/glext.h:51:1: warning: this is the location of the previous definition
+g++ -O3 -c `pkg-config --cflags opencv libxml-2.0 sdl` -I./ann_1.1.1/include/ ui_epipolars.cpp
+In file included from gui.h:6,
+                 from ui_state.h:28,
+                 from ui_epipolars.h:30,
+                 from ui_epipolars.cpp:25:
+/usr/include/SDL/SDL_opengl.h:112:1: warning: "GL_GLEXT_VERSION" redefined
+In file included from /usr/include/GL/gl.h:2150,
+                 from interface_opengl.h:28,
+                 from core_image_loader.h:28,
+                 from geometry_structures.h:29,
+                 from ui_epipolars.h:29,
+                 from ui_epipolars.cpp:25:
+/usr/include/GL/glext.h:51:1: warning: this is the location of the previous definition
+g++ -O3 -c `pkg-config --cflags opencv libxml-2.0 sdl` -I./ann_1.1.1/include/ ui_events.cpp
+In file included from gui.h:6,
+                 from ui_state.h:28,
+                 from ui_core.h:30,
+                 from ui_visualization.h:32,
+                 from geometry_export.h:31,
+                 from ui_events.h:31,
+                 from ui_events.cpp:25:
+/usr/include/SDL/SDL_opengl.h:112:1: warning: "GL_GLEXT_VERSION" redefined
+In file included from /usr/include/GL/gl.h:2150,
+                 from interface_opengl.h:28,
+                 from ui_events.h:28,
+                 from ui_events.cpp:25:
+/usr/include/GL/glext.h:51:1: warning: this is the location of the previous definition
+g++ -O3 -c `pkg-config --cflags opencv libxml-2.0 sdl` -I./ann_1.1.1/include/ ui_inspection_mode.cpp
+In file included from gui.h:6,
+                 from ui_state.h:28,
+                 from ui_core.h:30,
+                 from ui_visualization.h:32,
+                 from ui_inspection_mode.h:29,
+                 from ui_inspection_mode.cpp:25:
+/usr/include/SDL/SDL_opengl.h:112:1: warning: "GL_GLEXT_VERSION" redefined
+In file included from /usr/include/GL/gl.h:2150,
+                 from interface_opengl.h:28,
+                 from core_image_loader.h:28,
+                 from geometry_structures.h:29,
+                 from ui_inspection_mode.h:28,
+                 from ui_inspection_mode.cpp:25:
+/usr/include/GL/glext.h:51:1: warning: this is the location of the previous definition
+g++ -O3 -c `pkg-config --cflags opencv libxml-2.0 sdl` -I./ann_1.1.1/include/ ui_list.cpp
+g++ -O3 -c `pkg-config --cflags opencv libxml-2.0 sdl` -I./ann_1.1.1/include/ ui_selection.cpp
+In file included from gui.h:6,
+                 from ui_state.h:28,
+                 from ui_core.h:30,
+                 from ui_selection.h:30,
+                 from ui_selection.cpp:25:
+/usr/include/SDL/SDL_opengl.h:112:1: warning: "GL_GLEXT_VERSION" redefined
+In file included from /usr/include/GL/gl.h:2150,
+                 from interface_opengl.h:28,
+                 from core_image_loader.h:28,
+                 from geometry_structures.h:29,
+                 from ui_selection.h:29,
+                 from ui_selection.cpp:25:
+/usr/include/GL/glext.h:51:1: warning: this is the location of the previous definition
+g++ -O3 -c `pkg-config --cflags opencv libxml-2.0 sdl` -I./ann_1.1.1/include/ ui_shot_mode.cpp
+g++ -O3 -c `pkg-config --cflags opencv libxml-2.0 sdl` -I./ann_1.1.1/include/ ui_state.cpp
+g++ -O3 -c `pkg-config --cflags opencv libxml-2.0 sdl` -I./ann_1.1.1/include/ ui_visualization.cpp
+In file included from gui.h:6,
+                 from ui_state.h:28,
+                 from ui_core.h:30,
+                 from ui_visualization.h:32,
+                 from ui_visualization.cpp:25:
+/usr/include/SDL/SDL_opengl.h:112:1: warning: "GL_GLEXT_VERSION" redefined
+In file included from /usr/include/GL/gl.h:2150,
+                 from interface_opengl.h:28,
+                 from ui_visualization.h:28,
+                 from ui_visualization.cpp:25:
+/usr/include/GL/glext.h:51:1: warning: this is the location of the previous definition
+g++ -O3 -c `pkg-config --cflags opencv libxml-2.0 sdl` -I./ann_1.1.1/include/ ui_visualization_helpers.cpp
+In file included from gui.h:6,
+                 from ui_state.h:28,
+                 from ui_visualization_helpers.h:32,
+                 from ui_visualization_helpers.cpp:25:
+/usr/include/SDL/SDL_opengl.h:112:1: warning: "GL_GLEXT_VERSION" redefined
+In file included from /usr/include/GL/gl.h:2150,
+                 from interface_opengl.h:28,
+                 from ui_visualization_helpers.h:28,
+                 from ui_visualization_helpers.cpp:25:
+/usr/include/GL/glext.h:51:1: warning: this is the location of the previous definition
+g++ -O3 -c `pkg-config --cflags opencv libxml-2.0 sdl` -I./ann_1.1.1/include/ ui_visualization_point.cpp
+In file included from gui.h:6,
+                 from ui_state.h:28,
+                 from ui_visualization_helpers.h:32,
+                 from ui_visualization_point.h:29,
+                 from ui_visualization_point.cpp:25:
+/usr/include/SDL/SDL_opengl.h:112:1: warning: "GL_GLEXT_VERSION" redefined
+In file included from /usr/include/GL/gl.h:2150,
+                 from interface_opengl.h:28,
+                 from ui_visualization_point.h:28,
+                 from ui_visualization_point.cpp:25:
+/usr/include/GL/glext.h:51:1: warning: this is the location of the previous definition
+g++ -O3 -c `pkg-config --cflags opencv libxml-2.0 sdl` -I./ann_1.1.1/include/ ui_workflow.cpp
+In file included from gui.h:6,
+                 from ui_state.h:28,
+                 from ui_workflow.h:29,
+                 from ui_workflow.cpp:25:
+/usr/include/SDL/SDL_opengl.h:112:1: warning: "GL_GLEXT_VERSION" redefined
+In file included from /usr/include/GL/gl.h:2150,
+                 from interface_opengl.h:28,
+                 from core_image_loader.h:28,
+                 from geometry_structures.h:29,
+                 from geometry_queries.h:28,
+                 from ui_workflow.h:28,
+                 from ui_workflow.cpp:25:
+/usr/include/GL/glext.h:51:1: warning: this is the location of the previous definition
+make -C ./sift
+make[1]: Entering directory `/home/lukas/Desktop/insight3d/insight3d/sift'
+make -C ./src siftfeat
+make[2]: Entering directory `/home/lukas/Desktop/insight3d/insight3d/sift/src'
+ar rc ../lib/libfeat.a imgfeatures.o utils.o sift.o kdtree.o minpq.o xform.o
+ranlib  ../lib/libfeat.a
+gcc -O3 -I../include `pkg-config --cflags opencv` `pkg-config --cflags gtk+-2.0` `pkg-config --cflags gsl` siftfeat.c -o ../bin/siftfeat -L../lib -lfeat `pkg-config --libs opencv` `pkg-config --libs gtk+-2.0` `pkg-config --libs gsl`
+make[2]: Leaving directory `/home/lukas/Desktop/insight3d/insight3d/sift/src'
+make -C ./src match
+make[2]: Entering directory `/home/lukas/Desktop/insight3d/insight3d/sift/src'
+ar rc ../lib/libfeat.a imgfeatures.o utils.o sift.o kdtree.o minpq.o xform.o
+ranlib  ../lib/libfeat.a
+gcc -O3 -I../include `pkg-config --cflags opencv` `pkg-config --cflags gtk+-2.0` `pkg-config --cflags gsl` match.c -o ../bin/match -L../lib -lfeat `pkg-config --libs opencv` `pkg-config --libs gtk+-2.0` `pkg-config --libs gsl`
+make[2]: Leaving directory `/home/lukas/Desktop/insight3d/insight3d/sift/src'
+make -C ./src dspfeat
+make[2]: Entering directory `/home/lukas/Desktop/insight3d/insight3d/sift/src'
+ar rc ../lib/libfeat.a imgfeatures.o utils.o sift.o kdtree.o minpq.o xform.o
+ranlib  ../lib/libfeat.a
+gcc -O3 -I../include `pkg-config --cflags opencv` `pkg-config --cflags gtk+-2.0` `pkg-config --cflags gsl` dspfeat.c -o ../bin/dspfeat -L../lib -lfeat `pkg-config --libs opencv` `pkg-config --libs gtk+-2.0` `pkg-config --libs gsl`
+make[2]: Leaving directory `/home/lukas/Desktop/insight3d/insight3d/sift/src'
+make -C ./src libfeat.a
+make[2]: Entering directory `/home/lukas/Desktop/insight3d/insight3d/sift/src'
+ar rc ../lib/libfeat.a imgfeatures.o utils.o sift.o kdtree.o minpq.o xform.o
+ranlib  ../lib/libfeat.a
+make[2]: Leaving directory `/home/lukas/Desktop/insight3d/insight3d/sift/src'
+make[1]: Leaving directory `/home/lukas/Desktop/insight3d/insight3d/sift'
+g++ -O3 -o insight *.o `pkg-config --libs opencv libxml-2.0 sdl` ./sift/lib/libfeat.a  -llapack -lblas -lGL -lGLU ./sba/libsba.a ./ann_1.1.1/lib/libANN.a
+core_debug.o: In function `core_debug_initialize()':
+core_debug.cpp:(.text+0x217): warning: memset used with constant zero length parameter; this could be due to transposed parameters
