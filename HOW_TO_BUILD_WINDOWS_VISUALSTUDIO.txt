@@ -1,0 +1,30 @@
+Terms
+-----
+
+- "application directory" is the directory with the executable file insight3d.exe
+- "project directory" is the directory with the source files (main.cpp, application.h, etc.) 
+
+List of DLLs
+------------
+
+The following dlls need to be either copied to the application directory or located where the system can find them (e.g., a location listed in the PATH variable): 
+
+- the opencv dll files
+- SDL dll files 
+- pthreadVC2.dll
+- shared version x64 of the LAPACK and BLAS libraries, can be downloaded from this website http://www.fi.muni.cz/~xsvobod2/misc/lapack/ (as of October, 2016)
+
+How to build under Windows
+--------------------------
+
+The following libraries are necessary for building in Microsoft Visual Studio: 
+
+	- opencv
+	- opengl
+	- opensift
+	- SDL
+	- lapack and blas 
+	- pthreads
+
+The OpenCV_Debug.props file inside the project directory contains relevant compiler and linker configuration. It expects that the OpenCV library can be found using the %(OPENCV_DIR) system variable and that the remaining libraries are inside the project directory. 
+
