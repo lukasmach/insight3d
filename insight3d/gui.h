@@ -2,8 +2,8 @@
 #define GUI_MAIN
 
 // #include <stdbool.h> // todo
-#include "SDL.h"
-#include "SDL_opengl.h"
+#include "SDL/SDL.h"
+#include "SDL/SDL_opengl.h"
 #include "cv.h"
 #include "highgui.h"
 #include <math.h>

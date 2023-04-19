@@ -1,7 +1,7 @@
 #ifndef __INTERFACE_SDL
 #define __INTERFACE_SDL
 
-#include "SDL.h"
+#include "SDL/SDL.h"
 
 // SDL initialization 
 // note unused when using AgarGUI, but might be useful someday

@@ -5,8 +5,8 @@
 #include "windows.h"
 #endif
 
-#include "SDL.h" 
-#include "SDL_opengl.h"
+#include "SDL/SDL.h" 
+#include "SDL/SDL_opengl.h"
 #include "pthread.h"
 
 extern pthread_mutex_t opengl_mutex;

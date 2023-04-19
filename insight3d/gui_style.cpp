@@ -1,6 +1,6 @@
 #include "gui_style.h"
-#include "SDL.h"
-#include "SDL_opengl.h"
+#include "SDL/SDL.h"
+#include "SDL/SDL_opengl.h"
 
 void gui_style_menu_item(GUI_Panel * panel)
 {
